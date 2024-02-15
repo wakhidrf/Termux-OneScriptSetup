@@ -2,8 +2,11 @@
 This repo mainly for first time fast setup termux, termux styling, just by running one script.
 
 ## Usage
-EZ, do
+After install termux, do
 ```
+pkg update && pkg install git -y
+git clone https://github.com/wakhidrf/Termux-OneScriptSetup.git
+cd Termux-OneScriptSetup
 bash setup.sh
 ```
 
