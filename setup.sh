@@ -31,6 +31,7 @@ echo "Styling Termux"
 echo "========================================================="
 
 cd
+mkdir .config
 mkdir .config/fish
 cd Termux-OneScriptSetup/assets/
 cp font.ttf ../../.termux/font.ttf
