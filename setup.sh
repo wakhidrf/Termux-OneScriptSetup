@@ -4,7 +4,7 @@ echo "======================================================"
 echo "Installing Useful Package"
 echo "======================================================"
 
-pkg upgrade -y && pkg update && pkg install fish vim mc neofetch ruby perl golang nodejs php python -y
+pkg upgrade -y && pkg update && pkg install fish glow vim mc neofetch ruby perl golang nodejs php python -y
 
 gem install lolcat
 
