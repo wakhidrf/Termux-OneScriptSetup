@@ -1,5 +1,5 @@
 # Termux-OneScriptSetup
-This repo mainly for first time fast setup termux automatically by running one script. Contains some useful tools.
+This repo mainly for first time fast setup termux, automatically by running one script. Contains some useful tools.
 
 ## Usage
 After install termux, do
