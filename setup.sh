@@ -5,7 +5,7 @@ echo "Installing Useful Package"
 echo "======================================================"
 
 pkg upgrade -y && pkg update && pkg install wget fish glow vim mc neofetch rust ruby perl golang nodejs php python tur-repo -y
-pkg update && pkg install code-server
+pkg update && pkg install code-server mariadb phpmyadmin
 gem install lolcat
 
 echo "======================================================"
