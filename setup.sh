@@ -1,5 +1,6 @@
 #! /bin/bash
 
+clear
 echo "======================================================"
 echo "Installing Useful Package"
 echo "======================================================"
@@ -8,8 +9,9 @@ pkg upgrade -y && pkg update && pkg install wget fish glow vim mc neofetch rust 
 pkg update && pkg install code-server mariadb phpmyadmin
 gem install lolcat
 
+clear
 echo "======================================================"
-echo "Moving to Fish Shell"
+echo "Setting Fish Shell"
 echo "======================================================"
 
 cd
@@ -17,6 +19,7 @@ cd ../usr/bin/
 chsh -s fish
 echo "done !"
 
+clear
 echo "======================================================"
 echo "Disabling MOTD"
 echo "======================================================"
@@ -26,6 +29,7 @@ cd ../usr/etc/
 mv motd .motd
 echo "done !"
 
+clear
 echo "======================================================"
 echo "Styling Termux"
 echo "======================================================"
@@ -38,6 +42,7 @@ cp font.ttf ../../.termux/font.ttf
 cp config.fish ../../.config/fish/config.fish
 echo "done !"
 
+clear
 echo "======================================================"
-echo "Please restart Termux by manually type exit !"
+echo "Please Restart Termux By Manually Type Exit !"
 echo "======================================================"
